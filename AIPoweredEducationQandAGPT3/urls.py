@@ -24,6 +24,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/v1/auth/', include('account.urls')),
     path('api/vi/auth/login', TokenObtainPairView.as_view(), name='token_obtain_pair'),
+    path('api/v1/gpt/',include('core.urls')),
     path('api/token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
 ]
 
