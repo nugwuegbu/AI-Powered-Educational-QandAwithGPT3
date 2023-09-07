@@ -9,7 +9,7 @@ class GPTUtil:
     def search_query(query_data):
         s_query = query_data['search_text']
         result = openai.Completion.create(
-            engine = 'text-davinci-003',
+            engine = 'text-davinci-002',
             prompt = s_query,
             max_tokens = 256,
             temperature = 0.5,
