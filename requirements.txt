@@ -13,13 +13,16 @@ django-filter==23.2
 django-guardian==2.4.0
 djangorestframework==3.14.0
 djangorestframework-simplejwt==5.3.0
+drf-yasg==1.21.7
 frozenlist==1.4.0
 idna==3.4
+inflection==0.5.1
 install==1.3.5
 Markdown==3.4.4
 multidict==6.0.4
 mysqlclient==2.2.0
 openai==0.28.0
+packaging==23.1
 pycparser==2.21
 Pygments==2.16.1
 PyJWT==2.8.0
